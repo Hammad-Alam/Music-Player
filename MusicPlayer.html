@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="logo.jpg">
+    <title>Music Player</title>
+    <link rel="stylesheet" type="text/css" href="MusicPlayer.css">
+</head>
+<body>
+    <div id="container">
+        <div id="album">
+        <img src="songpic.jpeg" width="300px" height="250px" class="songimage" title="songimage">
+        </div>
+
+        <div id="info">
+            <h3 id="musicname">Iraaday</h3>
+            <p id="artistname">Abdul Hannan & Rovalio</p>
+        </div>
+
+        <audio src="Iraada.mp3" id="audio"></audio>
+        <div class="progressbar">
+            <div class="progress" id="progress"></div>
+            <div class="seek" id="seek"></div>
+        </div>
+
+        <div id="timer">
+            <p id="currenttime">0:00</p>
+            <p id="totaltime">2:13</p>
+        </div>
+
+        <div id="controls">
+            <button id="play"><img src="pause.jpg" width="45px" height="45px" class="playimage" title="play"></button>
+        </div>
+    </div>
+</body>
+<script src="MusicPlayer.js"></script>
+</html>
